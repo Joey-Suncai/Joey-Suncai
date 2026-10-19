@@ -20,7 +20,7 @@ I'm especially interested in how **LLMs and AI agents** can be evaluated and sha
 
 ## Selected academic projects
 
-- **Short-term stock return modeling:** Compared 10 statistical and machine learning models using daily observations from S&P 500 stocks, with a separate 2017–2018 holdout period. The work focused on careful benchmarking and the limits of predictability.
+- **[Short-term stock return modeling](https://github.com/Joey-Suncai/stock-return-ml-benchmark):** Led most of the code and analysis for a three-author project comparing 10 statistical and machine learning models using daily observations from S&P 500 stocks, with a separate 2017–2018 holdout period. The work focused on careful benchmarking and the limits of predictability.
 - **North Carolina tax reform analysis:** Used synthetic control with 42 donor states and placebo tests to study private fixed investment after the state's corporate tax reform. Implemented the analysis in R.
 
 ## Tools and methods
