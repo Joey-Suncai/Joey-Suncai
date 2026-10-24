@@ -37,7 +37,7 @@ I'm an **M.S. in Applied Data Science student at the University of Chicago** (ex
 | Start from the business question and the decision it feeds | Python, R, and SQL pipelines from raw data to model to chart |
 | Benchmark against a simple baseline before trusting a complex model | No-look-ahead features and time-based holdouts for anything forecast-related |
 | Design rubrics and evaluation criteria so AI output can be audited | Use Claude Code and Codex to build and iterate faster, with a human review step |
-| Use causal methods (synthetic control, placebo tests) when correlation isn't enough | Run my own AI job-intelligence agent with explicit screening rules |
+| Use causal methods (synthetic control, placebo tests) when correlation isn't enough | Designed and run a multi-agent job-search system where every public action needs my approval |
 | Turn analysis into decks, tables, and charts that people actually read | Tableau, ggplot2, Think-cell, and Excel for the last mile |
 
 ---
@@ -90,9 +90,7 @@ I'm an **M.S. in Applied Data Science student at the University of Chicago** (ex
 
 **[Short-term U.S. stock return benchmark](https://github.com/Joey-Suncai/stock-return-ml-benchmark)** — ECON 491 capstone (team of 3; I led most of the code and analysis). Ten statistical and ML models for next-day returns on 619,040 daily observations across 505 S&P 500 stocks, with 10 engineered technical indicators and a time-based 2017–2018 holdout. Boosting had the lowest test MSE (2.169 vs. 2.175 for OLS); Random Forest ranked volume indicators in its top four while LASSO dropped them, a hint of nonlinear effects.
 
-**North Carolina corporate tax reform** — ECON 474. Synthetic control (Abadie-Diamond-Hainmueller, 2010) on 42 donor states matched on GDP, unemployment, and investment (RMSPE = 0.071). Estimated a +19.3% average effect on private fixed investment over 2014–2019, checked with in-space placebo tests across all donors. Built in R.
-
-**AI job-intelligence pipeline** — a local AI agent I configured and run that gathers postings from Greenhouse, Ashby, Remotive, and HN Who-Is-Hiring, scores each role, and writes per-role fit reports. Role keywords, seniority gates, and visa-classification rules are explicit, and nothing is submitted without my review, so a large pile of listings becomes a short, auditable list.
+**Job Searching Agent** — a multi-agent system I designed and operate in Claude Code to run my own job search. An orchestrator routes work to 9 specialized agent skills: sourcing from 20 sources (1,886 Greenhouse/Lever/Ashby boards, curated GitHub lists, LinkedIn, Built In, Handshake, HN), deduplicating 31,721 raw postings into 12,388 relevant U.S. roles across 2,583 companies, scoring each 0–100 on fit, timing, sponsorship, green-card record, referral paths, and freshness, and tailoring resumes and cover letters from one verified profile. Nothing public happens, no post and no application, without my approval.
 
 **AI-assisted MD&A review rubric** — Hyde Park Investment Services. A 0–5 scoring rubric that makes ChatGPT-assisted review of management discussion and analysis auditable: every score needs cited evidence and senior-analyst sign-off.
 
