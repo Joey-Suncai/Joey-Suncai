@@ -10,7 +10,7 @@
 
 An economist by training who now builds with data and AI — and still checks whether the model actually beats the baseline.
 
-I'm an **M.S. in Applied Data Science student at the University of Chicago** (expected December 2027) with a **B.A. in Economics from the University of Illinois Urbana-Champaign** (Major GPA 3.85). Before UChicago I worked on the analyst side of finance and consulting: designing an AI-assisted review rubric and fundamentals-based equity screens at **Hyde Park Investment Services**, and building cost models and client-ready decks for Fortune 500 clients at **Frost & Sullivan**. I'm looking for **2027 internships in AI Product, Product Analytics, and Data Analytics**, in Chicago or anywhere in the U.S.
+I'm an **M.S. in Applied Data Science student at the University of Chicago** (expected December 2027) with a **B.A. in Economics from the University of Illinois Urbana-Champaign** (Major GPA 3.85). Before UChicago I worked on the analyst side of finance and consulting: designing an AI-assisted review rubric and fundamentals-based equity screens at **Hyde Park Investment Services**, and co-building cost models and producing client-ready decks for Fortune 500 clients at **Frost & Sullivan**. I'm looking for **2027 internships in AI Product, Product Analytics, and Data Analytics**, in Chicago or anywhere in the U.S.
 
 ---
 
@@ -20,11 +20,11 @@ I'm an **M.S. in Applied Data Science student at the University of Chicago** (ex
 
 **14 companies on one consistent model** — cleaned Finviz and Yahoo Finance data and built standardized Excel forecast models so senior analysts could compare revenue, margins, and free cash flow side by side.
 
-**Fundamentals-based equity screening** — applied ROIC, FCF margin, and net debt/EBITDA factors to screen U.S. equities into an investment shortlist, building and iterating the workflow with AI coding assistants.
+**Fundamentals-based equity screening** — applied ROIC, FCF margin, and net debt/EBITDA factors to screen U.S. equities into a 30-stock investment shortlist, using AI tools to gather the fundamentals data.
 
 **40% faster deck turnaround, zero errors** — built the tables and charts for 60+ pages of client-ready decks at Frost & Sullivan with Think-cell and Excel.
 
-**Green vs. grey methanol cost model** — built a levelized-cost-of-fuel model for Fortune 500 clients that tests investment feasibility across ETS carbon prices, feedstock volatility, and CAPEX.
+**Green vs. grey methanol cost model** — co-built, with a consultant, a levelized-cost-of-fuel model for Fortune 500 clients that tests investment feasibility across ETS carbon prices, feedstock volatility, and CAPEX.
 
 **619,040 observations, 10 models, an honest answer** — led most of the code for a three-person benchmark of next-day S&P 500 return models; Boosting won, but only by 0.25% over OLS.
 
