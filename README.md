@@ -26,7 +26,7 @@ I'm an **M.S. in Applied Data Science student at the University of Chicago** (ex
 
 **Green vs. grey methanol cost model** — co-built, with a consultant, a levelized-cost-of-fuel model for Fortune 500 clients that tests investment feasibility across ETS carbon prices, feedstock volatility, and CAPEX.
 
-**619,040 observations, 10 models, an honest answer** — led most of the code for a three-person benchmark of next-day S&P 500 return models; Boosting won, but only by 0.25% over OLS.
+**619,040 observations, 10 models, an honest answer** — led the code for a three-person benchmark of next-day S&P 500 return models; Boosting won, but only by 0.25% over OLS.
 
 ---
 
@@ -88,7 +88,7 @@ I'm an **M.S. in Applied Data Science student at the University of Chicago** (ex
 
 ## Selected work
 
-**[Short-term U.S. stock return benchmark](https://github.com/Joey-Suncai/stock-return-ml-benchmark)** — ECON 491 capstone (team of 3; I led most of the code and analysis). Ten statistical and ML models for next-day returns on 619,040 daily observations across 505 S&P 500 stocks, with 10 engineered technical indicators and a time-based 2017–2018 holdout. Boosting had the lowest test MSE (2.169 vs. 2.175 for OLS); Random Forest ranked volume indicators in its top four while LASSO dropped them, a hint of nonlinear effects.
+**[Short-term U.S. stock return benchmark](https://github.com/Joey-Suncai/stock-return-ml-benchmark)** — ECON 491 capstone (team of 3; I led the code and analysis). Ten statistical and ML models for next-day returns on 619,040 daily observations across 505 S&P 500 stocks, with 10 engineered technical indicators and a time-based 2017–2018 holdout. Boosting had the lowest test MSE (2.169 vs. 2.175 for OLS); Random Forest ranked volume indicators in its top four while LASSO dropped them, a hint of nonlinear effects.
 
 **Job Searching Agent** — a multi-agent system I designed and operate in Claude Code to run my own job search. An orchestrator routes work to 9 specialized agent skills: sourcing from 20 sources (1,886 Greenhouse/Lever/Ashby boards, curated GitHub lists, LinkedIn, Built In, Handshake, HN), deduplicating 31,721 raw postings into 12,388 relevant U.S. roles across 2,583 companies, scoring each 0–100 on fit, timing, sponsorship, green-card record, referral paths, and freshness, and tailoring resumes and cover letters from one verified profile. Nothing public happens, no post and no application, without my approval.
 
